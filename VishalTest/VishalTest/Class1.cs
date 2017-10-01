@@ -10,7 +10,7 @@ namespace VishalTest
     {
         public static void Main (String[] arg)
         {
-            Console.WriteLine("Hello Vishal !!!");
+            Console.WriteLine("Hello Vishal !");
         }
     }
 }
