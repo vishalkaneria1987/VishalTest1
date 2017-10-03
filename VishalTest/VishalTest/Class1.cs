@@ -6,11 +6,25 @@ using System.Threading.Tasks;
 
 namespace VishalTest
 {
-    public class Class1
+    [TestClass]
+    public class Program
     {
-        public static void Main (String[] arg)
+        [TestMethod]
+      public static void Main(String[] arg)
         {
-            Console.WriteLine("Hello Vishal !!!");
+            Console.WriteLine(CreateMessage());
         }
+        public static string CreateMessage()
+        {
+            return "Vishal";
+        }
+    }
+
+    internal class TestMethodAttribute : Attribute
+    {
+    }
+
+    internal class TestClassAttribute : Attribute
+    {
     }
 }
