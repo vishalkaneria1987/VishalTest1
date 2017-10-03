@@ -12,7 +12,8 @@ namespace VishalTest
     {
         private static void Main(String[] arg)
         {
-            Console.WriteLine(CreateMessage());
+            Console.WriteLine("Vishal");
+            Console.ReadLine();
         }
         public static string CreateMessage()
 
