@@ -17,8 +17,5 @@ public class Logout {
 		
 	}
 
-	{
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.findElement(By.id("logout")).click();
-	}
+	
 }
