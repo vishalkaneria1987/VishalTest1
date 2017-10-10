@@ -23,7 +23,7 @@ public class Login {
         // Navigate to URL
         driver.get("https://assistwebtest.azurewebsites.net/Account/Login?ReturnUrl=%2f");
         // Maximize the window.
-        //driver.manage().window().maximize();
+        //driver.manage().window().maximize(); ///
         // Enter UserName
         driver.findElement(By.id("UserName")).sendKeys("admin");
         // Enter Password
