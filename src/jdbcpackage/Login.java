@@ -42,7 +42,7 @@ public class Login {
         
         /*.
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		//Select Drop-down
+		//Select Drop-down/
     	driver.findElement(By.className("select2-chosen")).click();
 		//Select text "Assist Test from drop down
 		driver.findElement(By.xpath("(//div[@class='select2-result-label'])[2]")).click();
