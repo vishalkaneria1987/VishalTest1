@@ -2,5 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Automation">
   <test name="Test">
+  <classes>
+     <class name="example.Login"/>
+     <class name="example.Dashboard"/>
+     <class name="example.data"/>
+     <class name="example.Logout"/>
+   </classes>
   </test> <!-- Test -->
 </suite> <!-- Automation -->
