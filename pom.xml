@@ -46,12 +46,6 @@
         <version>6.9.9</version>
         <scope>test</scope>
   	</dependency>
-  
-  <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-chrome-driver</artifactId>
-        <version>Selenium.Chrome.WebDriver.2.29</version>
-    </dependency>
-  </dependencies>
+    </dependencies>
 </project>
  
