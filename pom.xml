@@ -50,7 +50,7 @@
   <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-chrome-driver</artifactId>
-        <version>${selenium.version}</version>
+        <version>Selenium.Chrome.WebDriver.2.29</version>
     </dependency>
   </dependencies>
 </project>
