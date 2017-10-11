@@ -15,6 +15,18 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+      	<groupId>org.testng</groupId>
+      	<artifactId>testng</artifactId>
+      	<version>6.9.9</version>
+      </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>Login</groupId>
+  		<artifactId>Login</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
