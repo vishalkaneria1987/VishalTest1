@@ -3,10 +3,10 @@
 <suite name="Automation">
   <test name="Login">
   <classes>
-     <class name="example.Login"/>
-     <class name="example.Dashboard"/>
-     <class name="example.data"/>
-     <class name="example.Logout"/>
+     <class name="Login"/>
+     <class name="Dashboard"/>
+     <class name="data"/>
+     <class name="Logout"/>
    </classes>
   </test> <!-- Test -->
 </suite> <!-- Automation -->
