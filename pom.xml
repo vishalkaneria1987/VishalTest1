@@ -9,4 +9,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>LoginMavan</name>
   
+<build>
+    <sourceDirectory>../src</sourceDirectory>
+</build>
+  
+  
 </project>
